@@ -3,3 +3,43 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center;
+}
+figure {
+  text-align: center;
+}
+figcaption {
+  font-size: small;
+}
+nav {
+  text-align: center;
+}
+nav a {
+  padding: 0 10px;
+  background-color: #aaa;
+  text-decoration: none;
+  color: #222;
+}
+nav a:hover {
+  background-color: #777;
+  color: #fff
+}
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+#details div {
+  float: left;
+  background-color: #a00;
+  text-align: center;
+  width: 25%;
+}
+#details div a {
+  color: #aaa;
+}
+#details div a:hover {
+  color: blue;
+}
